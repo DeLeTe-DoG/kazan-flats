@@ -1,0 +1,142 @@
+.dropDown_menu.anim{
+    opacity: 0;
+    transition: all 0.8s;
+}
+.dropDown_menu.anim.active{
+    opacity: 1;
+}
+
+.headTitle.anim{
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s 0.2s;
+}
+.headTitle.anim.active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.headSubTitle.anim{
+    transform: translate(0px, 120%);
+    opacity: 0;
+    transition: all 0.8s 0.5s;
+}
+.headSubTitle.anim.active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.dropDown.anim, .urls.anim{
+    opacity: 0;
+    transition: all 1s;
+}
+.dropDown.anim.active, .urls.anim.active{
+    opacity: 1;
+}
+.advTitle.anim{
+    transform: translate(-50%, 0px);
+    opacity: 0;
+    transition: all 0.6s 0.2s;
+}
+.advTitle.anim.active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.cards.anim{
+    opacity:0;
+    transform: translate(0px, 50%);
+    transition: all 0.6s;
+}
+.cards.anim.active{
+    opacity:1;
+    transform: translate(0px, 0px);
+}
+.sliderH.anim{
+    opacity: 0;
+    transform: translate(-50%, 0px);
+    transition: all 0.6s 0.2s;
+}
+.sliderH.anim.active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+.carousel.anim{
+    opacity: 0;
+    transition: all 0.6s;
+    rotate: x 90deg;
+}
+.carousel.anim.active{
+    opacity: 1;
+    rotate: none;
+}
+
+.contacts.anim{
+    opacity: 0;
+    transition: all 0.8s;
+}
+.contacts.anim.active{
+    opacity: 1;
+}
+.widget.a.anim{
+    opacity: 0;
+    transform: translate(-150%, 0px);
+    transition: all 0.5s 0.2s;
+}
+.widget.a.anim.active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.widget.b.anim{
+    opacity: 0;
+    transform: translate(-150%, 0px);
+    transition: all 0.5s 0.4s;
+}
+.widget.b.anim.active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.widget.c.anim{
+    opacity: 0;
+    transform: translate(-150%, 0px);
+    transition: all 0.5s 0.6s;
+}
+.widget.c.anim.active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+
+.widget.d.anim{
+    opacity: 0;
+    transform: translate(-150%, 0px);
+    transition: all 0.5s 0.8s;
+}
+.widget.d.anim.active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+/* anim for map block */
+.mapBlock_title.anim{
+    opacity: 0;
+    transform: translate(0px, 100%);
+    transition: all 0.5s;
+}
+.mapBlock_title.anim.active{
+    opacity: 1;
+    transform: translate(0px, 0px);
+}
+.subText.anim{
+    opacity: 0;
+    transform: translate(0px, -100%);
+    transition: all 0.5s;
+}
+.subText.anim.active{
+    opacity: 1;
+    transform: translate(0px, -0px);
+}
+.map.anim{
+    opacity: 0;
+    transition: all 0.6s;
+}
+.map.anim.active{
+    opacity: 1;
+}
