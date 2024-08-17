@@ -7,28 +7,33 @@ import PhotoProspect from './images/sliderImages/prospect35a.jpg'
 import PhotoNazarb47 from './images/sliderImages/nazarbaeva47.jpg'
 import PhotoNazarb54 from './images/sliderImages/nazarbaeva54.jpg'
 import PhotoMagadan from './images/sliderImages/magadanskaya.jpg'
+import IconDDUrls from './images/icons/iconMenu.png'
 // import 
-
+let icon_ddurls = IconDDUrls
 let data_urls = [
     {
-        id: 'a',
+        id: 4,
         href: "tel:+79172298405",
-        src: Tel
+        src: Tel,
+        DDHeadings: 'Телефон:',
     },
     {
-        id: 'b',
+        id: 3,
         href: "https://t.me/akula_7779",
-        src: TG
+        src: TG,
+        DDHeadings: 'Telegram:',
     },
     {
-        id: 'c',
+        id: 2,
         href: "https://vk.com/club111404785",
-        src: VK
+        src: VK,
+        DDHeadings: 'VK:',
     },
     {
-        id: 'd',
+        id: 1,
         href: "https://wa.me/79172298405",
-        src: WA
+        src: WA,
+        DDHeadings: 'WhatsApp:',
     },
 ]
 
@@ -87,4 +92,4 @@ let data_carusel = [
 ]
 
 let Map_data = "https://yandex.ru/map-widget/v1/?um=constructor%3A16f43124c0429c477bffe6f39c336840ba719f4b03f8780817dffcab64a40486&amp;source=constructor"
-export {data_urls,  data_advantages, Photo, data_carusel, Map_data}
+export {data_urls,  data_advantages, Photo, data_carusel, Map_data, icon_ddurls}
