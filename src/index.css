@@ -139,11 +139,12 @@ section{
 .advantages{
     display:flex;
     flex-direction: column;
-    /* align-items: center; */
+    margin: 0 auto;
     margin: 80px 0 130px 0;
 }
 .advTitle{
     font-size: 58px;
+    margin: 0 auto;
     margin-bottom: 30px;
 }
 .cards{
@@ -179,6 +180,7 @@ section{
     font-size: 48px;
     margin-bottom: 10px;
 }
+.carousel{ width: 900px;}
 
 footer{
     /* display: flex;
@@ -217,11 +219,18 @@ footer{
 
 /* adaptive */
 @media (max-width: 1200px) {
-    .all{
+    /* header{width: 100%;} */
+    html{
+        width: 100%;
+    }
+    #root{
         width: 100%;
     }
     .urls{
         display: none;
+    }
+    .advantages{
+        max-width: 90%;
     }
     .cards{
         display: grid;
@@ -244,11 +253,35 @@ footer{
 }
 
 @media (max-width: 1100px) {
+    .carousel{width: 900px; max-width: 80%; margin: 0 auto;}
+    .sliderH{margin: 0 auto; width: max-content;}
+    #root{
+        width: 80%;
+    }
     .all{width:100%}
+    .headBlock{
+        margin-top: 15%;
+        margin-bottom: 15%;
+        /* width: 100%; */
+}
+.slider{
+    max-width: 80%;
+}
+/* .carousel{
+    max-width: 90%;
+    margin: 0 auto;
+} */
 }
 @media (max-width: 900px) {
     .headBlock{
         margin-top: 10%;
         margin-bottom: 10%;
     }
+    /* .slider{
+        width: 80%;
+        /* margin: 0 auto; */
+    /* } */
+    /* .carousel{
+        max-width: 80%;
+    } */
 }
